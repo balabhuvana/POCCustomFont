@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="app.mysecond.com.poc_customfont.MainActivity">
+
+    <TextView
+        android:id="@+id/tvFirst"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!" />
+
+    <TextView
+        android:id="@+id/tvSecond"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World! Two"
+        app:layout_constraintTop_toBottomOf="@+id/tvFirst" />
+
+    <TextView
+        android:id="@+id/tvThree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World! Three"
+        app:layout_constraintTop_toBottomOf="@+id/tvSecond" />
+
+    <app.mysecond.com.poc_customfont.CustomTextView
+        android:id="@+id/tvFour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World! Four"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/tvThree" />
+
+</android.support.constraint.ConstraintLayout>
