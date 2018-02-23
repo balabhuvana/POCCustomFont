@@ -42,6 +42,10 @@ class CustomTextView : TextView {
         }
         return FontCache.getTypeFace(context, "SourceSansPro-Regular.ttf");
     }
+   // Test one
+   // Test two
+    // Test Three
+    //Test Four
    // Test One
    // Test Two
 }
