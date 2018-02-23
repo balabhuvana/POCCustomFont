@@ -43,5 +43,5 @@ class CustomTextView : TextView {
         return FontCache.getTypeFace(context, "SourceSansPro-Regular.ttf");
     }
 
-    // Test git first commit through android studio
+   
 }
